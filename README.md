@@ -8,12 +8,12 @@ Welcome to the Hotel Booking Application! This application allows users to searc
 1. [Features](#features)
 2. [Installation](#installation)
 3. [Usage](#usage)
-    1. [Search Hotels](#search-hotels)
-    2. [Sort Hotels by Rating](#sort-hotels-by-rating)
-    3. [View Hotel Details](#view-hotel-details)
-    4. [Book a Hotel](#book-a-hotel)
-    5. [View Bookings](#view-bookings)
-
+    - [Search Hotels](#search-hotels)
+    - [Sort Hotels by Rating](#sort-hotels-by-rating)
+    - [View Hotel Details](#view-hotel-details)
+    - [Book a Hotel](#book-a-hotel)
+    - [View Bookings](#view-bookings)
+4. [Technologies Used](#technologies-used)
 
 ## Features
 - **Search Hotels**: Find hotels based on your desired location and dates.
@@ -45,7 +45,7 @@ To run the Hotel Booking Application on your local machine, follow these steps:
 
 ## Usage
 
-### 1. Search Hotels :
+### Search Hotels :
 ![Home Page](public/2.PNG)  
 - **Description**: Use the search functionality to find hotels based on your destination and travel dates.
 - **Steps**:
@@ -53,7 +53,7 @@ To run the Hotel Booking Application on your local machine, follow these steps:
   2. Enter your desired location and travel dates.
   3. Click the "Search" button to see a list of available hotels.
 
-### 2. Sort Hotels by Rating :
+### Sort Hotels by Rating :
 ![sorting Page](public/3.PNG)  
 - **Description**: Sort the list of hotels by their ratings to find the highest-rated accommodations.
 - **Steps**:
@@ -61,14 +61,14 @@ To run the Hotel Booking Application on your local machine, follow these steps:
   2. Select "Sort by Rating".
   3. The hotels will be re-ordered based on their ratings, with the highest-rated hotels appearing first.
 
-### 3. View Hotel Details :
+### View Hotel Details :
 ![details Page](public/4.PNG)  
 - **Description**: Access detailed information about a specific hotel.
 - **Steps**:
   1. From the search results, click on the details button of the hotel you are interested in.
   2. You will be redirected to the hotel's detail page, where you can view amenities, reviews, photos, and pricing.
 
-### 4. Book a Hotel :
+### Book a Hotel :
 ![Booking Page](public/5.PNG)  
 - **Description**: Book a hotel room after logging into your account.
 - **Steps**:
@@ -78,7 +78,7 @@ To run the Hotel Booking Application on your local machine, follow these steps:
   4. Click "Confirm Booking" to finalize your reservation.
   5. You will receive a booking confirmation via email.
 
-### 5. View Bookings :
+### View Bookings :
 ![sorting Page](public/6.PNG)  
 - **Description**: View your past and upcoming bookings.
 - **Steps**:
@@ -86,6 +86,12 @@ To run the Hotel Booking Application on your local machine, follow these steps:
   2. Navigate to the "Bookings" section from the user menu.
   3. Here, you can view a list of all your bookings, both past and upcoming.
 
-
+## Technologies Used
+- `Next.js` for server-side rendering and React components.
+- `MongoDB Atlas` for database hosting and management.
+- `Mongoose` for schema modeling and querying MongoDB.
+- `NextAuth.js` for authentication and authorization.
+- `bcryptjs` for hashing password.
+- `Tailwind CSS` for styling and layout.
 
 ---
